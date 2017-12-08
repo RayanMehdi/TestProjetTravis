@@ -11,3 +11,9 @@ android:
 script:
 - "./gradlew testDebugUnitTest"
 - "./build-apk.sh"
+notifications:
+    slack: lp-iem:kDPhwslAWdRY6xk89yHqyL9i
+branches:
+  only:
+  - master
+  - develop
